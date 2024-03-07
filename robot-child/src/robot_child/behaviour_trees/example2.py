@@ -4,6 +4,7 @@ import random
 
 nums = [2, 3, 0, 8]
 
+
 class SortedCondition(py_trees.behaviour.Behaviour):
     def __init__(self, name):
         super().__init__(name)
@@ -22,6 +23,7 @@ class SortedCondition(py_trees.behaviour.Behaviour):
 
     def terminate(self, new_status: Status) -> None:
         pass
+
 
 class SortAction(py_trees.behaviour.Behaviour):
     def __init__(self, name):
@@ -42,6 +44,7 @@ class SortAction(py_trees.behaviour.Behaviour):
 
     def terminate(self, new_status: Status) -> None:
         pass
+
 
 condition = SortedCondition("is_sorted")
 action = SortAction("sort")

@@ -1,5 +1,6 @@
 import cv2
 
+
 def video_iterator(path, step=1):
     cap = cv2.VideoCapture(path)
 
@@ -11,5 +12,5 @@ def video_iterator(path, step=1):
         if i % step == 0:
             yield frame
         i += 1
-    
+
     cap.release()

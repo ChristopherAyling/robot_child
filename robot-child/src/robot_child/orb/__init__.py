@@ -7,4 +7,3 @@ __all__ = [
     "make_distance_matrix",
     "filter_matches",
 ]
-

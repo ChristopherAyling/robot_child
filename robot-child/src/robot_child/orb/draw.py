@@ -2,10 +2,12 @@ BLUE = 0
 GREEN = 1
 RED = 2
 
+
 def set_pixel_rgb(img, i, j, r, g, b):
     img[i, j, RED] = r
     img[i, j, GREEN] = g
     img[i, j, BLUE] = b
+
 
 def line(img, p1, p2, r, g, b):
     (x1, y1), (x2, y2) = p1, p2

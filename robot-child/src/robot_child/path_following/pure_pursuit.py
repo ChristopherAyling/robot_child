@@ -1,13 +1,6 @@
 from dataclasses import dataclass
-import random
 
-from math import sin, cos, degrees, radians, sqrt, atan2, pi, floor
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-import matplotlib.ticker as ticker
-from tqdm import tqdm
+from math import sin, cos, sqrt, atan2, pi
 
 @dataclass
 class Point:
@@ -107,7 +100,7 @@ class PointController:
         return distance_error <= self.tolerance
 
 @dataclass
-class PathController:
+class PurePursuitController:
     point_controller: PointController
     points: list[Point]
     i: int = 0

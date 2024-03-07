@@ -1,11 +1,10 @@
-import fast
-import brief
-import video
-import utils
-from utils import timer
+from . import fast
+from . import brief
+from . import video
+from . import utils
+from .utils import timer
 import cv2
 import numpy as np
-import time
 
 def main():
     # height = 180

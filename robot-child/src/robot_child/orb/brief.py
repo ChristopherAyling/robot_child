@@ -1,6 +1,6 @@
 from numba import njit
 import numpy as np
-import draw
+from . import draw
 
 def make_brief_point_pairs(patch_size, n):
     point_pairs = []

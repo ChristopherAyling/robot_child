@@ -1,5 +1,5 @@
 import numpy as np
-import fast
+from robot_child.orb import fast
 import cv2 
 
 np.random.seed(0)

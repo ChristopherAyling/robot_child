@@ -1,9 +1,7 @@
-import video
-import utils
-from utils import timer
+from . import video
+from . import utils
+from .utils import timer
 import cv2
-import numpy as np
-import time
 
 def main():
     img_scale = 4

@@ -1,6 +1,6 @@
 import numpy as np
 from numba import njit
-import draw
+from . import draw
 
 """
 Implements the FAST algorithm and visualisation

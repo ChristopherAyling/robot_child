@@ -1,5 +1,9 @@
 # Robot
 
+include robot.png
+
+![A small robot with a metal chassis, 4 omni wheels and an arduino](robot_small.png)
+
 This is the repo for my robot project. It will eventually do everything.
 
 SLAM, pathfinding, behaviour trees, speech recogition, object manipulation etc

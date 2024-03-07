@@ -10,9 +10,9 @@ This repo is organised into Python code for protoyping and c++ code for deployin
 
 Links to robot features:
 
-- [ORB Feature Detection](./python/orb/main_custom.py)
-- [Odometry](./python/odometry/)
-- [Pure Pursuit Path Following](./python/path_following/sim_tank_vis.ipynb)
-- [Behaviour Trees](./python/behaviour_trees/)
-- [Pathfinding](./python/pathfinding/)
-- [Mapping](./python/mapping/)
+- [ORB Feature Detection](./robot-child/src/robot_child/orb/main_custom.py)
+- [Odometry](./robot-child/src/robot_child/odometry/)
+- [Pure Pursuit Path Following](./robot-child/notebooks/sim_tank_vis.ipynb)
+- [Behaviour Trees](./robot-child/src/robot_child/behaviour_trees/)
+- [Pathfinding](./robot-child/src/robot_child/pathfinding/)
+- [Mapping](./robot-child/src/robot_child/mapping/)

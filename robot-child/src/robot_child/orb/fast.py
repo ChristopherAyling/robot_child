@@ -104,7 +104,7 @@ def fast_detection(img, grid, test_points, threshold, margin):
     corner_points = make_corner_points(img, grid=grid, test_points=test_points, threshold=threshold)
     orientations = make_orientations(img/255, corner_points, margin=margin)
     cornerness = harris_measure(img, corner_points)
-    nms_corner_points = nms(corner_points, cornerness)
+    _nms_corner_points = nms(corner_points, cornerness)
     return corner_points, cornerness, orientations 
 
 # visualisation

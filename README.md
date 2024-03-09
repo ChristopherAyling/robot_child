@@ -16,5 +16,5 @@ Links to robot features:
 - [Odometry](./robot-child/src/robot_child/odometry/)
 - [Pure Pursuit Path Following](./robot-child/notebooks/sim_tank_vis.ipynb)
 - [Behaviour Trees](./robot-child/src/robot_child/behaviour_trees/)
-- [Pathfinding](./robot-child/src/robot_child/pathfinding/)
+- [Pathfinding](./robot-child/notebooks/pathfinding.ipynb)
 - [Mapping](./robot-child/src/robot_child/mapping/)

@@ -14,7 +14,8 @@ Links to robot features:
 
 - [ORB Feature Detection](./robot-child/src/robot_child/orb/main_custom.py)
 - TODO [Odometry](./robot-child/src/robot_child/odometry/)
-- [Pure Pursuit Path Following](./robot-child/notebooks/sim_tank_vis.ipynb)
-- [Behaviour Trees](./robot-child/src/robot_child/behaviour_trees/)
+- [Pure Pursuit](./robot-child/notebooks/sim_tank_vis.ipynb)
 - [Pathfinding](./robot-child/notebooks/pathfinding.ipynb)
+- [Pathfinding + Pure Pursuit](./robot-child/notebooks/path_finding_following.ipynb)
+- [Behaviour Trees](./robot-child/src/robot_child/behaviour_trees/)
 - TODO [Mapping](./robot-child/src/robot_child/mapping/)

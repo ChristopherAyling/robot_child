@@ -56,7 +56,7 @@ def clip(x, mn, mx):
     return x
 
 
-MAX_SPEED_CM_S = 10
+MAX_SPEED_CM_S = 20
 
 
 @dataclass
